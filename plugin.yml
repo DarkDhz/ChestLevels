@@ -1,0 +1,22 @@
+main: es.darkhorizon.dev.chestlevels
+name: ChestLevels
+version: 1.0
+author: DarkDhz
+description: A ChestLevels Plugin.
+depend: [Vault]
+commands:
+  lchest:
+    description: Lchest command.
+    usage: /<command> [String]
+    permission: lchest.use
+    permission-message: You don't have <permission>
+permissions: 
+  lchest.command.*:
+    description: Gives access to all lchest commands.
+    children:
+      lchest.command.help: true
+      lchest.command.setup: true
+  lchest.command.help:
+    default: op  
+  lchest.command.setup:
+    default: op  
