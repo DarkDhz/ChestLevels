@@ -1,0 +1,29 @@
+prefix: '&8[&d&lCHESTLEVELS&r&8] &r'
+noperm: '&cNo Permission!'
+sender: '&cOnly for players!'
+no_money: '&cYou don''t have enought money!'
+lchestcmd:
+  help:
+    help_cmd: "&f&l\xbb&r &9/lchest help &7Show this info."
+    setup_cmd: "&f&l\xbb&r &9/lchest setup &7Setups a custom lvlchest."
+  setup:
+    usage: '&7Correct usage: &f/lchest setup'
+    no_chest: '&cYou''re not looking to a chest!'
+    already_chest: '&cActually this chest is been managed by ChestLevels!'
+    success: '&cNow this chest is managed by ChestLevels!'
+    removed: '&cChest removed!'
+chest:
+  title: '&9&lCHEST&r &7&lLVL.&r&b&l%level%'
+  upgrade:
+    name: '&e&lUpgrade Chest!'
+    lore:
+    - '&8'
+    - '&7Upgrade your chest to nect level for:'
+    - '&e%cost%'
+    - '&8'
+  max_level:
+    name: '&c&lMax Level!'
+    lore:
+    - '&8'
+    - '&7You can''t upgrade your chest!'
+    - '&8'
