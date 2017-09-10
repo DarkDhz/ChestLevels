@@ -23,7 +23,7 @@ public class chestlevels extends JavaPlugin implements Listener{
 	public static chestlevels getPlugin() {return plugin;}
 	ArrayList<String> Locations = new ArrayList<String>();
 	HashMap<String, Integer> plvls = new HashMap<String, Integer>();
-	String plversion = "1.0";
+	String plversion = "1.0.1";
 	@Override
 	public void onEnable() {
 		plugin = this;
