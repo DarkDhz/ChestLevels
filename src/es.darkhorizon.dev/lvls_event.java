@@ -23,6 +23,9 @@ public class lvls_event implements Listener{
 	@EventHandler
 	public void onPlayerInteract(PlayerInteractEvent event) {
 		Player player = event.getPlayer();
+		if (!event.hasBlock()){
+			return;
+			}
 		if (event.getClickedBlock().getType() == Material.CHEST) {
 			Location loc = event.getClickedBlock().getLocation();
 			if (plugin.Locations.contains(loc.toString())) {
@@ -38,7 +41,7 @@ public class lvls_event implements Listener{
 					}	
 				}									
 			}
-		}
+		}	
 	}
 	@EventHandler
 	public void onInventoryClick(InventoryClickEvent event) {
